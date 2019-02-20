@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scenes">
+      <UniqueIdentifier>{8acc3a18-9307-4bd1-a487-32066eabbd96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sprites">
+      <UniqueIdentifier>{51a389db-ecd1-402f-bea2-c9c9b9817322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Other">
+      <UniqueIdentifier>{92dcf86f-d532-4c68-bb14-9e80f2ffc43a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Components">
+      <UniqueIdentifier>{8c7979c3-9122-4219-811f-12107896495c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Nodes">
+      <UniqueIdentifier>{f2c34ca6-284c-4f66-b1ac-4e251c32dfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Commands">
+      <UniqueIdentifier>{36c104c2-1925-4da6-8050-ef93230ad0ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Events">
+      <UniqueIdentifier>{4ed51451-7081-43f3-82b1-7cd86118fb71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AuthorScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PreviewScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelListScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PhysicsShapeCache.cpp">
+      <Filter>src\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlatformNode.cpp">
+      <Filter>src\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HeaderNode.cpp">
+      <Filter>src\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ObjectNode.cpp">
+      <Filter>src\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GridNode.cpp">
+      <Filter>src\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ContainerNode.cpp">
+      <Filter>src\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CristalNode.cpp">
+      <Filter>src\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelData.cpp">
+      <Filter>src\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EditScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScreenFormat.cpp">
+      <Filter>src\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerStatus.cpp">
+      <Filter>src\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UISpacePack.cpp">
+      <Filter>src\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UISpriteSheet.cpp">
+      <Filter>src\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BonusNode.cpp" />
+    <ClCompile Include="..\Classes\BallSprite.cpp">
+      <Filter>src\Nodes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AuthorScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PreviewScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Defines.h">
+      <Filter>src\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelListScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PhysicsShapeCache.h">
+      <Filter>src\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlatformNode.h">
+      <Filter>src\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HeaderNode.h">
+      <Filter>src\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Status.h">
+      <Filter>src\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Command.h">
+      <Filter>src\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EventBall.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EventPlatform.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ObjectNode.h">
+      <Filter>src\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GridNode.h">
+      <Filter>src\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ContainerNode.h">
+      <Filter>src\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CristalNode.h">
+      <Filter>src\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerStatus.h">
+      <Filter>src\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EventPlayer.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelData.h">
+      <Filter>src\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScreenFormat.h">
+      <Filter>src\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EditScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UISpacePack.hpp">
+      <Filter>src\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UISpriteSheet.hpp">
+      <Filter>src\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollisionMaskTpl.h">
+      <Filter>src\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MaskTpl.h">
+      <Filter>src\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BonusNode.h">
+      <Filter>src\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BallSprite.h">
+      <Filter>src\Nodes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

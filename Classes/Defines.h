@@ -1,0 +1,54 @@
+#pragma once
+
+#include "CollisionMaskTpl.h"
+
+/*MATERIAL*/
+#define DEFAULT_MAERIAL { 0.0f, 1.0f, 0.0f }
+#define CRISTAL_MATTERIAL {0.1f, 0.5f, 0.5f}
+
+
+/*BITMAPS*/
+#define BALL_COLLISION_MASK 1
+#define BRICK_COLLISION_MASK 2
+#define LEVEL_COLLISION_BITMASK 4
+#define LEVEL_BOTTOM_COLLISION_BITMASK 8
+#define ENTITY_COLLISION_MASK 16
+#define BONUS_COLLISION_MASK 32
+#define PLATFORM_COLLISION_MASK 64
+#define DAMAGE_COLLISION_MASK 128
+#define CRISTAL_COLLISION_MASK 256
+#define MOB_COLLISION_MASK 512
+#define TURRET_COLLISION_MASK 1024
+#define STATIC_OBJECT_COLLISION_MASK 2048
+#define ROCKET_COLLISION_MASK 4096
+
+//using CollisionMask = CollisionMaskTpl<int>;
+
+
+
+
+/*CONTACT BITMAPS*/
+#define ALL_COLLISION 0xFFFFFFFF
+
+/*NAMES*/
+#define BRICK_NAME "Brick"
+#define LEVEL_NAME "Level"
+#define BALL_NAME "Ball"
+#define PLATFORM_NAME "Platform"
+#define BONUS_NAME "Bonus"
+#define CONTAINER_NAME "Container"
+#define GAME_SCENE_NAME "GameScene_"
+
+/*GRID*/
+#define COLL_GRID 12
+#define ROW_GRID 16 
+
+
+
+/*FONTS*/
+#define FONT_CALCULATOR "fonts/Calculator.ttf"
+
+/*SCALE FACTOR*/
+#define HEADER_SCALE_FROM_VSIZE 0.1f
+#define CONTROLPANEL_SCALE_FROM_VSIZE 0.1f
+#define GAMEZONE_SCALE_FROM_VSIZE 0.8f

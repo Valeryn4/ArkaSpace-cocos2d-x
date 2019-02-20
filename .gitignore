@@ -1,0 +1,17 @@
+*.user
+proj.android/
+proj.ios_mac/
+proj.linux/
+cocos2d/*
+
+*.vs 
+*.vs/
+*/*.vs/
+.vs/
+
+proj.win32/*.win32/
+proj.win32/*.win32/*
+proj.win32/Debug.win32/
+proj.win32/Release.win32/
+*.pdb
+.exe
